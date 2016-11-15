@@ -1,2 +1,2 @@
 # weather_app
-A Weather Forecasting App Built w/ Angular.js 1.x
+A Weather Forecasting Single-Page Application Built w/ Angular.js 1.x
