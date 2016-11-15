@@ -1,0 +1,47 @@
+.navbar.navbar-default {
+	background: linear-gradient(to right, #83a4d4 , #b6fbff);
+}
+
+.navbar-brand {
+	font-size: 1.25em;
+}
+
+body {
+	background: linear-gradient(to left, #83a4d4 , #b6fbff);
+	font-family: Varela Round;
+}
+
+h1, h3 {
+	text-align: center;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+.panel.panel-default {
+	border-radius: 20px;
+}
+
+.form-control {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	text-align: center;
+}
+
+/*center's "View Forecast" button on homepage*/
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#home-container {
+	padding: 5px 5px 15px 5px;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: ;
+}
+
+li {
+	list-style-type: none;
+}

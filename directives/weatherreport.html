@@ -1,0 +1,22 @@
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h3 class="panel-title">{{ convertToDate({dt: weatherDay.dt}) | date: dateFormat }}</h3>
+	</div>
+	<div class="panel-body">
+		<ul>
+			<li>
+				Daytime Temp: {{ convertToStandardTemp({ temp: weatherDay.temp.day}) }}° 
+			</li>
+			<li>
+				Low: {{ convertToStandardTemp({ temp: weatherDay.temp.min}) }}° 
+			</li>
+			<li>
+				High: {{ convertToStandardTemp({ temp: weatherDay.temp.max}) }}°
+			</li>
+			<li>
+				Description: {{ weatherDay.weather.icon }}
+			</li>
+		</ul>
+	</div>
+</div>
+
